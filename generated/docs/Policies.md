@@ -1,0 +1,56 @@
+# Policies
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**auth_policies** | Option<[**models::AuthPolicies**](AuthPolicies.md)> |  | [optional]
+**auto_subscription_creation_override** | Option<[**models::AutoSubscriptionCreationOverride**](AutoSubscriptionCreationOverride.md)> |  | [optional]
+**auto_topic_creation_override** | Option<[**models::AutoTopicCreationOverride**](AutoTopicCreationOverride.md)> |  | [optional]
+**backlog_quota_map** | Option<[**std::collections::HashMap<String, models::BacklogQuota>**](BacklogQuota.md)> |  | [optional]
+**bundles** | Option<[**models::BundlesData**](BundlesData.md)> |  | [optional]
+**cluster_dispatch_rate** | Option<[**std::collections::HashMap<String, models::DispatchRateImpl>**](DispatchRateImpl.md)> |  | [optional]
+**cluster_subscribe_rate** | Option<[**std::collections::HashMap<String, models::SubscribeRate>**](SubscribeRate.md)> |  | [optional]
+**compaction_threshold** | Option<**i64**> |  | [optional]
+**deduplication_enabled** | Option<**bool**> |  | [optional]
+**deduplication_snapshot_interval_seconds** | Option<**i32**> |  | [optional]
+**delayed_delivery_policies** | Option<[**models::DelayedDeliveryPolicies**](DelayedDeliveryPolicies.md)> |  | [optional]
+**deleted** | Option<**bool**> |  | [optional]
+**dispatcher_pause_on_ack_state_persistent_enabled** | Option<**bool**> |  | [optional]
+**encryption_required** | Option<**bool**> |  | [optional]
+**entry_filters** | Option<[**models::EntryFilters**](EntryFilters.md)> |  | [optional]
+**inactive_topic_policies** | Option<[**models::InactiveTopicPolicies**](InactiveTopicPolicies.md)> |  | [optional]
+**is_allow_auto_update_schema** | Option<**bool**> |  | [optional]
+**latency_stats_sample_rate** | Option<**std::collections::HashMap<String, i32>**> |  | [optional]
+**max_consumers_per_subscription** | Option<**i32**> |  | [optional]
+**max_consumers_per_topic** | Option<**i32**> |  | [optional]
+**max_producers_per_topic** | Option<**i32**> |  | [optional]
+**max_subscriptions_per_topic** | Option<**i32**> |  | [optional]
+**max_topics_per_namespace** | Option<**i32**> |  | [optional]
+**max_unacked_messages_per_consumer** | Option<**i32**> |  | [optional]
+**max_unacked_messages_per_subscription** | Option<**i32**> |  | [optional]
+**message_ttl_in_seconds** | Option<**i32**> |  | [optional]
+**migrated** | Option<**bool**> |  | [optional]
+**offload_deletion_lag_ms** | Option<**i64**> |  | [optional]
+**offload_policies** | Option<[**models::OffloadPolicies**](OffloadPolicies.md)> |  | [optional]
+**offload_threshold** | Option<**i64**> |  | [optional]
+**offload_threshold_in_seconds** | Option<**i64**> |  | [optional]
+**persistence** | Option<[**models::PersistencePolicies**](PersistencePolicies.md)> |  | [optional]
+**properties** | Option<**std::collections::HashMap<String, String>**> |  | [optional]
+**publish_max_message_rate** | Option<[**std::collections::HashMap<String, models::PublishRate>**](PublishRate.md)> |  | [optional]
+**replication_clusters** | Option<**Vec<String>**> |  | [optional]
+**replicator_dispatch_rate** | Option<[**std::collections::HashMap<String, models::DispatchRateImpl>**](DispatchRateImpl.md)> |  | [optional]
+**resource_group_name** | Option<**String**> |  | [optional]
+**retention_policies** | Option<[**models::RetentionPolicies**](RetentionPolicies.md)> |  | [optional]
+**schema_auto_update_compatibility_strategy** | Option<**String**> |  | [optional]
+**schema_compatibility_strategy** | Option<**String**> |  | [optional]
+**schema_validation_enforced** | Option<**bool**> |  | [optional]
+**subscription_dispatch_rate** | Option<[**std::collections::HashMap<String, models::DispatchRateImpl>**](DispatchRateImpl.md)> |  | [optional]
+**subscription_auth_mode** | Option<**String**> |  | [optional]
+**subscription_expiration_time_minutes** | Option<**i32**> |  | [optional]
+**subscription_types_enabled** | Option<**Vec<String>**> |  | [optional]
+**topic_dispatch_rate** | Option<[**std::collections::HashMap<String, models::DispatchRateImpl>**](DispatchRateImpl.md)> |  | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

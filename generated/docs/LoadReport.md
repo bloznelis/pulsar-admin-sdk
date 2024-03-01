@@ -1,0 +1,55 @@
+# LoadReport
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**allocated_bandwidth_in** | Option<**f64**> |  | [optional]
+**allocated_bandwidth_out** | Option<**f64**> |  | [optional]
+**allocated_cpu** | Option<**f64**> |  | [optional]
+**allocated_memory** | Option<**f64**> |  | [optional]
+**allocated_msg_rate_in** | Option<**f64**> |  | [optional]
+**allocated_msg_rate_out** | Option<**f64**> |  | [optional]
+**bandwidth_in** | Option<[**models::ResourceUsage**](ResourceUsage.md)> |  | [optional]
+**bandwidth_out** | Option<[**models::ResourceUsage**](ResourceUsage.md)> |  | [optional]
+**broker_version_string** | Option<**String**> |  | [optional]
+**bundle_gains** | Option<**Vec<String>**> |  | [optional]
+**bundle_losses** | Option<**Vec<String>**> |  | [optional]
+**bundle_stats** | Option<[**std::collections::HashMap<String, models::NamespaceBundleStats>**](NamespaceBundleStats.md)> |  | [optional]
+**cpu** | Option<[**models::ResourceUsage**](ResourceUsage.md)> |  | [optional]
+**direct_memory** | Option<[**models::ResourceUsage**](ResourceUsage.md)> |  | [optional]
+**last_update** | Option<**i64**> |  | [optional]
+**load_manager_class_name** | Option<**String**> |  | [optional]
+**load_report_type** | Option<**String**> |  | [optional]
+**memory** | Option<[**models::ResourceUsage**](ResourceUsage.md)> |  | [optional]
+**msg_rate_in** | Option<**f64**> |  | [optional]
+**msg_rate_out** | Option<**f64**> |  | [optional]
+**msg_throughput_in** | Option<**f64**> |  | [optional]
+**msg_throughput_out** | Option<**f64**> |  | [optional]
+**name** | Option<**String**> |  | [optional]
+**non_persistent_topics_enabled** | Option<**bool**> |  | [optional]
+**num_bundles** | Option<**i32**> |  | [optional]
+**num_consumers** | Option<**i32**> |  | [optional]
+**num_producers** | Option<**i32**> |  | [optional]
+**num_topics** | Option<**i64**> |  | [optional]
+**over_loaded** | Option<**bool**> |  | [optional]
+**persistent_topics_enabled** | Option<**bool**> |  | [optional]
+**pre_allocated_bandwidth_in** | Option<**f64**> |  | [optional]
+**pre_allocated_bandwidth_out** | Option<**f64**> |  | [optional]
+**pre_allocated_cpu** | Option<**f64**> |  | [optional]
+**pre_allocated_memory** | Option<**f64**> |  | [optional]
+**pre_allocated_msg_rate_in** | Option<**f64**> |  | [optional]
+**pre_allocated_msg_rate_out** | Option<**f64**> |  | [optional]
+**protocols** | Option<**std::collections::HashMap<String, String>**> |  | [optional]
+**pulsar_service_url** | Option<**String**> |  | [optional]
+**pulsar_service_url_tls** | Option<**String**> |  | [optional]
+**start_timestamp** | Option<**i64**> |  | [optional]
+**system_resource_usage** | Option<[**models::SystemResourceUsage**](SystemResourceUsage.md)> |  | [optional]
+**timestamp** | Option<**i64**> |  | [optional]
+**under_loaded** | Option<**bool**> |  | [optional]
+**web_service_url** | Option<**String**> |  | [optional]
+**web_service_url_tls** | Option<**String**> |  | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
