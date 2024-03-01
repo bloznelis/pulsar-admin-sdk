@@ -1,9 +1,9 @@
 [package]
 name = "pulsar-admin-sdk"
-version = "2"
+version = "2.1.0"
 authors = ["OpenAPI Generator team and contributors"]
 description = "This provides the REST API for admin operations"
-license = "Apache 2.0"
+license = "MIT"
 edition = "2018"
 
 [dependencies]
