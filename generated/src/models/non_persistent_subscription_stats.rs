@@ -23,7 +23,7 @@ pub struct NonPersistentSubscriptionStats {
     #[serde(rename = "bytesOutCounter", skip_serializing_if = "Option::is_none")]
     pub bytes_out_counter: Option<i64>,
     #[serde(rename = "chunkedMessageRate", skip_serializing_if = "Option::is_none")]
-    pub chunked_message_rate: Option<i32>,
+    pub chunked_message_rate: Option<f64>,
     #[serde(rename = "consumers", skip_serializing_if = "Option::is_none")]
     pub consumers: Option<Vec<models::ConsumerStats>>,
     #[serde(rename = "consumersAfterMarkDeletePosition", skip_serializing_if = "Option::is_none")]

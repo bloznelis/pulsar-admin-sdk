@@ -1,6 +1,6 @@
 [package]
 name = "pulsar-admin-sdk"
-version = "2.1.0"
+version = "2.2.0"
 authors = ["OpenAPI Generator team and contributors"]
 description = "This provides the REST API for admin operations"
 license = "MIT"

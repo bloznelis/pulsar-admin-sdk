@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **backlog_size** | Option<**i64**> |  | [optional]
 **blocked_subscription_on_unacked_msgs** | Option<**bool**> |  | [optional]
 **bytes_out_counter** | Option<**i64**> |  | [optional]
-**chunked_message_rate** | Option<**i32**> |  | [optional]
+**chunked_message_rate** | Option<**f64**> |  | [optional]
 **consumers** | Option<[**Vec<models::ConsumerStats>**](ConsumerStats.md)> |  | [optional]
 **consumers_after_mark_delete_position** | Option<**std::collections::HashMap<String, String>**> |  | [optional]
 **delayed_message_index_size_in_bytes** | Option<**i64**> |  | [optional]

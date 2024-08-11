@@ -24142,8 +24142,8 @@ components:
           type: integer
           format: int64
         chunkedMessageRate:
-          type: integer
-          format: int32
+          type: number
+          format: double
         consumers:
           type: array
           items:
@@ -25444,8 +25444,8 @@ components:
           type: integer
           format: int64
         chunkedMessageRate:
-          type: integer
-          format: int32
+          type: number
+          format: double
         consumers:
           type: array
           items:
